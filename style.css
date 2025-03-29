@@ -17,6 +17,7 @@
     border-radius: 50%;
     border: 2px solid black;
     font-size: 30px;
+    cursor: pointer;
 }
 
 .avvatar_container {
@@ -59,6 +60,11 @@
     font-weight: 100;
 }
 
+.new_user input{
+    padding: 4px 10px;
+    margin-top: 10px;
+}
+
 .btn {
     background-color: #6e6c6c;
     margin-top: 32px;
@@ -73,6 +79,7 @@
     border-radius: 10px;
     color: #fff;
     font-weight: 100;
+    cursor: pointer;
 }
 
 #confirm1 {
@@ -84,14 +91,18 @@
     border-radius: 10px;
     color: #fff;
     font-weight: 100;
+    cursor: pointer;
 }
 
 #remove {
     border-radius: 50%;
     border: none;
     position: absolute;
-    left: 222px;
-    bottom: 126px;
+    left: 250px;
+    bottom: 144px;
+    font-size: 23px;
+    color: rgb(137, 32, 32);
+    cursor: pointer;
 
 }
 
@@ -119,6 +130,7 @@
     color: #fff;
     font-weight: 100;
     margin: 5px 5px;
+    cursor: pointer;
 }
 
 #confirm2 {
@@ -130,6 +142,7 @@
     color: #fff;
     font-weight: 100;
     margin: 5px 5px;
+    cursor: pointer;
 }
 
 .admin {
@@ -155,5 +168,6 @@ i#cross {
     left: 20px;
     bottom: 27px;
     color: red;
+    cursor: pointer;
 }
 
